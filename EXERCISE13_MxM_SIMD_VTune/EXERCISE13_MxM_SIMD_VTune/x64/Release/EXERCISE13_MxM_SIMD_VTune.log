@@ -1,0 +1,16 @@
+﻿  MxM_SISD_SIMD_AVX_R.c
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(155,24): warning C4133: "Funktion": Inkompatible Typen - von "__m256 *" zu "float *"
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(168,25): warning C4133: "Funktion": Inkompatible Typen - von "__m256 *" zu "float *"
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(168,77): warning C4133: "Funktion": Inkompatible Typen - von "__m256 *" zu "const float *"
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(169,25): warning C4133: "Funktion": Inkompatible Typen - von "__m256 *" zu "float *"
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(169,78): warning C4133: "Funktion": Inkompatible Typen - von "__m256 *" zu "const float *"
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(195,25): warning C4133: "Funktion": Inkompatible Typen - von "__m256 *" zu "float *"
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(197,57): warning C4133: "Funktion": Inkompatible Typen - von "__m256 *" zu "float *"
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(209,12): warning C4129: " ": nicht erkannte Folge von Escapesequenz
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(217,12): warning C4129: " ": nicht erkannte Folge von Escapesequenz
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\EXERCISE13_MxM_SIMD_VTune\MxM_SISD_SIMD_AVX_R.c(225,12): warning C4129: " ": nicht erkannte Folge von Escapesequenz
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  EXERCISE13_MxM_SIMD_VTune.vcxproj -> C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE13_MxM_SIMD_VTune\x64\Release\EXERCISE13_MxM_SIMD_VTune.exe

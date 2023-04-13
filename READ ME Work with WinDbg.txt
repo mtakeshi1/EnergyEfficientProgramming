@@ -1,0 +1,30 @@
+
+Work with WinDbg and use WinDbg to evaluate code
+
+1. Install WinDbg from https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86. 
+2. Go to Store-App and start it
+3. You got WinDbg Preview.
+4. Put WinDbg Preview to Windows "Start" menu and open it.
+5. Download EEP_Projektmappe_WinDbg.zip into C:\PROJECT and decompress it. Now you have the right path
+   to apply the command lines from "WinDbg_user_app_command lines_EXERCISE_xyz.txt" to work with WinDbg Preview.
+6. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+(https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands)
+7. Apply the command lines in "WinDbg_user_app_command lines_EXERCISE_xyz.txt" files to every EXERCISE to debug executable code.
+8. First go to menu tab "File" and "Launch executable". Go to the *.exe file you want to debug.
+9. Go to menu "Source" and "Open Source File"
+10. Go to folder where the source code of "EXERCISE_xyz" is and select it.
+11. Apply the command lines in "WinDbg_user_app_command lines_EXERCISE_xyz.txt".
+12. Go to menu "View" and select "Locals", "Registers", "Disassembly" and "Memory".
+
+So you will be abble to inspect the values of variebles to check the semantic of code and the way of how instructions 
+are executed by the CPU.
+
+
+
+Evaluation requirements:
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+

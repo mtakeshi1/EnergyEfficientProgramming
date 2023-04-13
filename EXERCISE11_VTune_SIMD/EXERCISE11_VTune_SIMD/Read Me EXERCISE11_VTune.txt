@@ -1,0 +1,44 @@
+// Read Me EXERCISE11_VTune.txt: VTune MEASUREMENTS MxM  C/SSE Intrinsics
+
+// SISD C sequential: MxM_MULT_SEQ
+// SIMD Streaming Data instructions SSE: MxM_MULT_SSE
+
+
+PC:	11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz, 16,0 GB 
+
+// MxM_MULT_SEQ.c
+//Dimension of the task:1024
+//Data typ: int
+//Project konfiguration
+//RELEASE x86
+
+//VTune Platform 
+//Power Analysis
+//Profiled Entity 				Power Rate(mW)		Energy total(mJ)
+//								11,539.202			25,677.917													100%
+
+//VTune Platform 
+//Microarchitecture 
+//Exploration
+//								CPU Time			Clockticks			Instructions Retired	CPI Rate
+//[Loop at line 70 in main]		2,268s				9,417,600,000		8,584,800,000			1.097			100%
+
+
+// MxM_MULT_SSE.c
+//Dimension of the task:1024
+//Data typ: int
+//Project konfiguration
+//RELEASE x86
+
+//VTune Platform 
+//Power Analysis
+//Profiled Entity 				Power Rate(mW)		Energy total(mJ)						
+//								15329.488			3607.971													14,05%
+
+//								CPU Time			Clockticks			Instructions Retired	CPI Rate
+//VTune Platform 
+//Microarchitecture 
+//Exploration	
+//[Loop at line 136 in main]	160.714ms			662,400,000			2,419,200,000			0.274			7,08%
+
+

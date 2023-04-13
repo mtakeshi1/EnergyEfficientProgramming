@@ -1,0 +1,10 @@
+﻿  VSP_SISDzuSIMD_float _RELEASE.c
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SISD_VTune\EXERCISE12_VDP_SISD_VTune\VSP_SISDzuSIMD_float _RELEASE.c(74,25): warning C4244: "Funktion": Konvertierung von "float" in "unsigned int", möglicher Datenverlust
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SISD_VTune\EXERCISE12_VDP_SISD_VTune\VSP_SISDzuSIMD_float _RELEASE.c(76,29): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SISD_VTune\EXERCISE12_VDP_SISD_VTune\VSP_SISDzuSIMD_float _RELEASE.c(77,29): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SISD_VTune\EXERCISE12_VDP_SISD_VTune\VSP_SISDzuSIMD_float _RELEASE.c(71,8): warning C4101: "dp_f": Unreferenzierte lokale Variable
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  EXERCISE12_VDP_SISD_VTune.vcxproj -> C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SISD_VTune\Release\EXERCISE12_VDP_SISD_VTune.exe

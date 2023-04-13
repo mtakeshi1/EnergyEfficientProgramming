@@ -1,0 +1,32 @@
+
+Analyse EXERCISE10_Intrinsics with WinDbg
+
+1. Use WinDbg to evaluate code. Analyse the code structure of unter.asm debugging EXERCISE10_Intrinsics.exe under C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE10_INTRINSICS\x64\Debug
+2. Start WinDbg
+3. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+4. Apply "WinDbg_user_app_command lines_EXERCISE10_Intrinsics.txt", steps 1. to 4.
+5. Open over WinDbg menu ot topic "Source" the MxM_SIMD_AVX.c source file.
+6. Set breackpoint on line 186 and  start "Go".
+7. With "Step Into" execute code line 186 _mm256_store_ps(&vC, _mm256_add_ps(vC, _mm256_mul_ps(vA, vB))).  
+   Use command
+   !analyze -v
+   to analyse YMM register and memory values using further the  "Step Into" menu feature.
+8. Use WinDbg menu ot topic "View\Registers", YMM registers "View\Disassembly" 
+   to understand the effect of AVX instructions on vector data.
+
+
+Evaluation requirements:
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+
+Compulsory readings:
+Intel® Intrinsics Guide, https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#expand=4428,5417,5503,5289,2816&techs=AVX_ALL
+
+Recommended readings:
+Book companion - Computer Organization and Design MIPS Edition. The Hardware/Software Interface: 
+https://www.elsevier.com/books-and-journals/book-companion/9780128201091
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+x86 Assembly Language Reference Manual, https://docs.oracle.com/cd/E18752_01/html/817-5477/eojdc.html

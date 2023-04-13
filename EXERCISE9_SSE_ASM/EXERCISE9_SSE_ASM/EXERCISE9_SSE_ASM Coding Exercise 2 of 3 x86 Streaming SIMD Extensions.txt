@@ -1,0 +1,74 @@
+
+Analyse EXERCISE9_SSE_ASM with WinDbg
+
+1. Use WinDbg to evaluate code. Analyse the code structure of unter.asm debugging EXERCISE9_SSE_ASM.exe under C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE9_SSE_ASM\Debug
+2. Start WinDbg
+3. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+4. Apply "WinDbg_user_app_command lines_EXERCISE9_SSE_ASM.txt", steps 1. to 4.
+5. Open over WinDbg menu ot topic "Source" the VSP_SIMD_SSE_float.c source file.
+6. Set breackpoint on line 89 and  start "Go".
+7. With "Step Into" execute code line 89 until 121 in assembly language.  Use command
+	!analyze -v
+   to analyse XMM register and memory values using further the  "Step Into" menu feature.
+8. Use Debugging menu, topic "View\Registers", XMM registers "View\Disassembly" 
+   to understand the effect of ⁫SSE instructions on packed data.
+
+
+Evaluation requirements:
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+
+Compulsory readings:
+Streaming SIMD Extensions, https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions
+x86 Assembly/SSE, https://en.wikibooks.org/wiki/X86_Assembly/SSE
+SSE Instructions, https://docs.oracle.com/cd/E26502_01/html/E28388/eojde.html
+
+Recommended readings:
+Book companion - Computer Organization and Design MIPS Edition. The Hardware/Software Interface: 
+https://www.elsevier.com/books-and-journals/book-companion/9780128201091
+x86 Assembly Language Reference Manual
+https://docs.oracle.com/cd/E18752_01/html/817-5477/eojdc.html
+x86 instruction listings, https://en.wikipedia.org/wiki/X86_instruction_listings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXERCISE9_SSE_ASM
+
+Evaluation requirements:
+Use MICROSOFT VISUAL STUDIEO 2019 and later versions to evaluate code.Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+and  
+Visual Studio IDE documentation, https://learn.microsoft.com/en-us/visualstudio/ide/?view=vs-2019
+Getting Started with Visual Studio 2019, https://www.youtube.com/watch?v=1CgsMtUmVgs
+
+Evaluate code:
+..\Coding Exercise 2 of 3 x86 Streaming SIMD Extensions\EXERCISE9_SSE_ASM\VSP_SISD_float.c
+..\Coding Exercise 2 of 3 x86 Streaming SIMD Extensions\EXERCISE9_SSE_ASM\VSP_SIMD_SSE_float_E.c
+
+Compulsory readings:
+Streaming SIMD Extensions, https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions
+x86 Assembly/SSE, https://en.wikibooks.org/wiki/X86_Assembly/SSE
+SSE Instructions, https://docs.oracle.com/cd/E26502_01/html/E28388/eojde.html
+
+Recommended readings:
+Book companion - Computer Organization and Design MIPS Edition. The Hardware/Software Interface: 
+https://www.elsevier.com/books-and-journals/book-companion/9780128201091
+x86 Assembly Language Reference Manual
+https://docs.oracle.com/cd/E18752_01/html/817-5477/eojdc.html
+x86 instruction listings, https://en.wikipedia.org/wiki/X86_instruction_listings

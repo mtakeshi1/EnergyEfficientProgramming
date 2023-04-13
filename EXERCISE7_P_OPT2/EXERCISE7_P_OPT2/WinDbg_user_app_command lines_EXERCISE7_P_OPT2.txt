@@ -1,0 +1,8 @@
+Analyze own application EXERCISE7_P_OPT2 with WinDbg
+
+Command lines:
+1. .symfix
+2. .sympath+ C:\PROJECT\EEP_Projektmappe_WinDbg\EXERCISE7_P_OPT2\Debug
+3. .reload
+4. bu EXERCISE7_P_OPT2!main
+5. !analyze -v

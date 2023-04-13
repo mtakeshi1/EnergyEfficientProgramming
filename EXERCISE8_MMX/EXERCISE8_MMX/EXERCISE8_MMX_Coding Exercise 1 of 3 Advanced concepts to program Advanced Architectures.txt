@@ -1,0 +1,23 @@
+Analyse EXERCISE8_MMX with WinDbg
+
+1. Use WinDbg to evaluate code. Analyse the code structure of unter.asm debugging EXERCISE8_MMX.exe under C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE8_MMX\Debug
+2. Start WinDbg
+3. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+4. Apply "WinDbg_user_app_command lines_EXERCISE8_MMX.txt", steps 1. to 4.
+5. Open over WinDbg menu ot topic "Source" the Intel_MMX_Intrinsics.c source file.
+6. Set breackpoint on line 138 Start "Go".
+7. With "Step Into" execute INTRINSIC _mm_madd_pi16(_bv[i], _cv[i]).  
+   Use command !analyze -v to analyse MMX registers and memory values 
+   using further the  "Step Into" menu feature.
+8. Use WinDbg menu ot topic topic "View\Registers", MMX registers "View\Disassembly" 
+   to understand the effect of MMX intrinsics on packed data.
+
+
+Evaluation requirements:
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+

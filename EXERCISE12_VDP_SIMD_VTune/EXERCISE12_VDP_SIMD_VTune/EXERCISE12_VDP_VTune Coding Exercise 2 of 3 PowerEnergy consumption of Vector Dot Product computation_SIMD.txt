@@ -1,0 +1,45 @@
+
+EXERCISE12_VDP_SIMD_VTune
+
+Measurement with Intel® VTune™ Profiler of:
+a. Electrical power and energy
+
+b. Microarchitecture Exploration
+* Elapsed time
+* Clockticks
+* Instruction Retired 
+* CPI Rate
+
+Code to test with WinDbg:
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SIMD_VTune\Debug\EXERCISE12_VDP_SISD_VTune.exe
+
+Code to measure with VTune:
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SIMD_VTune\Release\EXERCISE12_VDP_SIMD_VTune.exe
+
+Tasks:
+1.	Build VTune project for EXERCISE12_VDP_VTune.exe
+2.	Analyse FIRST EXERCISE12_VDP_VTune_SISD.exe with the Intel's VTune Profiler 2021.3 tool. Notice the results
+	in the way presented in Read Me EXERCISE12_VDP_VTune.txt.
+	C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SISD_VTune\Release
+3.	Analyse SECOND EXERCISE12_VDP_VTune_SIMD.exe with the Intel's VTune Profiler 2021.3 tool. Notice the results
+	in the way presented in Read Me EXERCISE12_VDP_VTune.txt.
+	C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE12_VDP_SIMD_VTune\Release
+4. 	Compare the Results of points 2. and  3 and evaluuate in %.
+
+Evaluation requirements:
+ 
+Intel® VTune™ Profiler User Guide
+https://www.intel.com/content/www/us/en/develop/documentation/vtune-help/top.html
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Recommended readings:
+Book companion - Computer Organization and Design MIPS Edition. The Hardware/Software Interface: 
+https://www.elsevier.com/books-and-journals/book-companion/9780128201091
+x86 Assembly Language Reference Manual
+https://docs.oracle.com/cd/E18752_01/html/817-5477/eojdc.html
+x86 instruction listings, https://en.wikipedia.org/wiki/X86_instruction_listings
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+

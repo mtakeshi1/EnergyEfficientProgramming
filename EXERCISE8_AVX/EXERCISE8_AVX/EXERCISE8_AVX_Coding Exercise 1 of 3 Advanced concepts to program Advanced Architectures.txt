@@ -1,0 +1,22 @@
+Analyse EXERCISE8_AVX with WinDbg
+
+1. Use WinDbg to evaluate code. Analyse the code structure of unter.asm debugging EXERCISE8_AVX.exe under C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE8_AVX\Debug
+3. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+4. Apply "WinDbg_user_app_command lines_EXERCISE8_AVX.txt", steps 1. to 4.
+5. Open over WinDbg menu ot topic "Source" the Intel_AVX_Intrinsics.c source file.
+6. Set breackpoint on line 32 Start "Go".
+7. With "Step Into" execute INTRINSIC _mm256_set_ps(2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0, 16.0).  Use command
+	!analyze -v
+   to analyse YMMn register and memory values using further the  "Step Into" menu feature.
+8. Use WinDbg menu ot topic topic "View\Registers", YMM registers "View\Disassembly" 
+   to understand the effect of AVX intrinsics on vector data.
+
+
+Evaluation requirements:
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+

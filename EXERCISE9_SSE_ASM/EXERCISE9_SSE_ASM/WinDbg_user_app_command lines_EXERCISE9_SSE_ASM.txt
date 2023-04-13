@@ -1,0 +1,9 @@
+Analyze own application EXERCISE9_SSE_ASM
+ASMwith WinDbg
+
+Command lines:
+1. .symfix
+2. .sympath+ C:\PROJECT\EEP_Projektmappe_WinDbg\EXERCISE9_SSE_ASM\Debug
+3. .reload
+4. bu EXERCISE9_SSE_ASM!main
+5. !analyze -v

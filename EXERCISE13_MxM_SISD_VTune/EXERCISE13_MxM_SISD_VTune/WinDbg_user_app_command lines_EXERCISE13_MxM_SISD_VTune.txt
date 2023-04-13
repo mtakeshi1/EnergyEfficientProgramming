@@ -1,0 +1,12 @@
+Analyze own application EXERCISE13_MxM_SISD_VTune with WinDbg
+
+Command lines:
+1. .symfix
+
+To test with WinDbg
+2a. .sympath+ C:\PROJECT\EEP_Projektmappe_WinDbg\EXERCISE13_MxM_SISD_VTune\x64\Debug
+To run with WinDbg and measure with VTune
+2b. .sympath+ C:\PROJECT\EEP_Projektmappe_WinDbg\EXERCISE13_MxM_SISD_VTune\x64\Release
+3. .reload
+4. bu EXERCISE13_MxM_SISD_VTune!main
+5. !analyze -v

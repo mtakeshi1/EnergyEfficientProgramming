@@ -1,0 +1,29 @@
+Analyse EXERCISE9_C with WinDbg
+
+1. Use WinDbg to evaluate code. Analyse the code structure of unter.asm debugging EXERCISE9_C.exe under C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE9_C\Debug 
+2. Start WinDbg
+3. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+4. Apply "WinDbg_user_app_command lines_EXERCISE9_C.txt", steps 1. to 4.
+5. Open over WinDbg menu ot topic "Source" the VSP_SISD_float.c source file.
+6. Set breackpoint on line 62 and  start "Go".
+7. With "Step Into" execute code line VDP_f[0] += vector_af[i] * vector_bf[i] in assembly language.  Use command
+	!analyze -v
+   to analyse x86 register and memory values using further the  "Step Into" menu feature.
+8. Use WinDbg menu ot topic "View" for more information.
+
+
+Evaluation requirements:
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+
+Recommended readings:
+Book companion - Computer Organization and Design MIPS Edition. The Hardware/Software Interface: 
+https://www.elsevier.com/books-and-journals/book-companion/9780128201091
+x86 Assembly Language Reference Manual
+https://docs.oracle.com/cd/E18752_01/html/817-5477/eojdc.html
+x86 instruction listings, https://en.wikipedia.org/wiki/X86_instruction_listings
+

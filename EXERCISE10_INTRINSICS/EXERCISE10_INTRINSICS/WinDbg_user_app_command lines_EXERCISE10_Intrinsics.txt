@@ -1,0 +1,8 @@
+Analyze own application EXERCISE10_Intrinsics with WinDbg
+
+Command lines:
+1. .symfix
+2. .sympath+ C:\PROJECT\EEP_Projektmappe_WinDbg\EXERCISE10_INTRINSICS\x64\Debug
+3. .reload
+4. bu EXERCISE10_INTRINSICS!main
+5. !analyze -v

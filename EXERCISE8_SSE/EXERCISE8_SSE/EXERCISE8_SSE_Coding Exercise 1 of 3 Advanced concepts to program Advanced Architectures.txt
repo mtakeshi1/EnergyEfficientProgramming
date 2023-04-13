@@ -1,0 +1,22 @@
+Analyse EXERCISE8_SSE with WinDbg
+
+1. Use WinDbg to evaluate code. Analyse the code structure of unter.asm debugging EXERCISE8_SSE.exe under C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE8_SSE\Debug
+2. Start WinDbg
+3. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+4. Apply "WinDbg_user_app_command lines_EXERCISE8_SSE.txt", steps 1. to 4.
+5. Open over WinDbg menu ot topic "Source" the Intel_SSE_Intrinsics.c source file.
+6. Set breackpoint on line 124 Start "Go".
+7. With "Step Into" execute INTRINSIC _mm_storeu_si128(&vR, _mm_add_epi32(vR, _mm_mullo_epi32(vA, vB))).  
+   Use command !analyze -v
+   to analyse XMM register and memory values using further the  "Step Into" menu feature.
+8. Use WinDbg menu ot topic topic "View\Registers", XMM registers "View\Disassembly" 
+   to understand the effect of SSE intrinsics on packed data.
+
+Evaluation requirements:
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
+

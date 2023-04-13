@@ -1,0 +1,8 @@
+Analyze own application EXERCISE9_C with WinDbg
+
+Command lines:
+1. .symfix
+2. .sympath+ C:\PROJECT\EEP_Projektmappe_WinDbg\EXERCISE9_C\Debug
+3. .reload
+4. bu EXERCISE9_C!main
+5. !analyze -v

@@ -1,0 +1,45 @@
+// Read Me EXERCISE12_VDP_VTune.txt : VTune MEASUREMENTS VDP C/SSE Packed Data Assembler
+
+// SISD C sequential:						VSP_SISDzuSIMD_float, code line 88
+// SIMD Streaming Data instructions SSE:	VSP_SISDzuSIMD_float, code line 121
+
+
+PC: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz, 16,0 GB 
+
+//SISD C sequential:	
+//VSP_SISDzuSIMD_float, code line 88
+//Rank of vector:#define dim_float 2097152
+//Data type: float
+//Project configuration
+//RELEASE x86
+
+//VTune Platform 
+//Power Analysis
+//Profiled Entity 					Power Rate(mW)		Energy total(mJ)
+//									22,559.852			1,856.628												100%
+
+//VTune Platform 
+//Microarchitecture 
+//Exploration
+//									CPU Time			Clockticks		Instructions Retired	CPI Rate
+//Loop at line 88 in main]			1.992ms				14,400,000		14,200,000				2.000			100%
+
+// SIMD_SSE:	
+//VSP_SISDzuSIMD_float, code line 121
+//Rank of vector:#define dim_float 2097152
+//Data type: float
+//Project configuration
+//RELEASE x86
+
+//VTune Platform 
+//Power Analysis
+//Profiled Entity 					Power Rate(mW)		Energy total(mJ)					
+//									20,069.861			311.890													16,8%
+
+//VTune Platform 
+//Microarchitecture 
+//Exploration
+//									CPU Time			Clockticks		Instructions Retired	CPI Rate
+//[Loop at line 121 in main]		0.152ms				4,800,000		7,200,000				0.66			7,6%
+
+

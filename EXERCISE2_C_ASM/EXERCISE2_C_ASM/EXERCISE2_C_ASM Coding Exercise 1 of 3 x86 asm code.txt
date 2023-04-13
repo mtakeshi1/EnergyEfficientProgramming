@@ -1,0 +1,21 @@
+Analyse EXERCISE2_C_ASM with WinDbg
+
+1. Use WinDbg to evaluate code. Analyse the code structure of unter.asm debugging EXERCISE2_C_ASM.exe under C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE2_C_ASM\Debug
+2. Start WinDbg
+3. Start debugging using "Get started with WinDbg (user mode)" on position "Open your own application and attach WinDbg" and execute steps 1. to 4.
+4. Apply "WinDbg_user_app_command lines_EXERCISE2_C_ASM.txt", steps 1. to 4.
+5. Open over WinDbg menu ot topic "Source" the main E2.c source file.
+6. Set breackpoint on line 48 Start "Go".
+7. With "Step Into" go to function vdp_sequential(vector, dot_prod) in assembly language and use command line
+	!analyze -v
+   to analyse x86 register and memory values using further the  "Step Into" menu feature.
+8. Use WinDbg menu ot topic "View" for more information.
+
+
+Evaluation requirements:
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm

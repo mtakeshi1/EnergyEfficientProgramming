@@ -1,0 +1,40 @@
+// Read MeRead Me EXERCISE13_MxM_VTune.txt: VTune MEASUREMENTS MxM C/AVX Intrinsics
+
+// SISD C sequential:	MxM_SISD_SIMD_AVX, code line 104
+// SIMD Streaming Data instructions AVX:	MxM_SISD_SIMD_AVX, code line 194	
+// 
+
+PC:	11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz, 16,0 GB 
+
+// SISD C sequential:	
+//MxM_SISD_SIMD_AVX, code line 104 
+//Dimension of the task:1024
+//Data typ: float
+//Project configuration
+//RELEASE x64
+
+//VTune Platform Power Analysis
+//Profiled Entity 							Power Rate(mW)		Energy total(mJ)
+//											15,850.775			50,983.765													100%
+
+//VTune Platform Microarchitecture 
+//Exploration
+//											CPU Time			Clockticks			Instructions Retired	CPI Rate
+//[Loop at line 111 in main]				3.104s				12,038,400,000		8,596,800,000			1.400			100%
+
+
+/// SISD Streaming Data instructions AVX:	
+//MxM_SISD_SIMD_AVX, code line 194	
+//Dimension of the task:1024
+//Data typ: float
+//Project configuration
+//RELEASE x64
+
+//VTune Platform Power Analysis
+//Profiled Entity 							Power Rate(mW)		Energy total(mJ)							
+//											22,320.881			4,141.418													8,12%
+
+//VTune Platform Microarchitecture 
+//Exploration
+//											CPU Time			Clockticks			Instructions Retired	CPI Rate
+//[Loop at line 194 in main]				130.952ms			499,200,000			806,400,000				0.619			4,2%

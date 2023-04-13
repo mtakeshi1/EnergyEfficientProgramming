@@ -1,0 +1,42 @@
+EXERCISE11_VTune_SIMD
+
+Measurement with Intel® VTune™ Profiler of:
+a. Electrical power and energy
+
+b. Microarchitecture Exploration
+* Elapsed time
+* Clockticks
+* Instruction Retired 
+* CPI Rate
+
+Code to test with WinDbg:
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE11_VTune_SIMD\Debug
+
+Code to measure with VTune:
+C:\PROJEKTE\EEP_Exercises_WinDbg\EXERCISE11_VTune_SIMD\Release\EXERCISE11_VTune_SIMD.exe
+
+Tasks:
+1.  Build a Console Application project EXERCISE11_VTune for MxM_MULT_SEQ_RELEASE.c, MxM_MULT_SSE_RELEASE.c.
+2.  Build FIRST the project EXERCISE11_VTune.exe with RELEASE x86 option ONLY for MxM_MULT_SEQ_RELEASE.c
+3.  Build a Vtune project for EXERCISE11_VTune.exe
+4.  Analyse EXERCISE11_VTune.exe  with the Intel's VTune Profiler 2021.3 tool. Notice the results
+	in the way presented in Read Me EXERCISE11_VTune.txt.
+5.	Build SECOND the project EXERCISE11_VTune.exe with RELEASE x86 option ONLY for MxM_MULT_SSE_RELEASE.c.
+6.  Repeat step 4 for MxM_MULT_SSE_RELEASE.c. Notice the results in the way presented in Read Me EXERCISE11_VTune.txt.
+7. 	Compare the Results unter points 4. and 6.
+
+Evaluation requirements:
+Intel® VTune™ Profiler User Guide
+https://www.intel.com/content/www/us/en/develop/documentation/vtune-help/top.html
+
+WinDbg Preview, https://apps.microsoft.com/store/detail/windbg-preview/9PGJGD53TN86
+Get started with WinDbg (user mode), https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg#summary-of-commands
+
+Recommended readings:
+Book companion - Computer Organization and Design MIPS Edition. The Hardware/Software Interface: 
+https://www.elsevier.com/books-and-journals/book-companion/9780128201091
+x86 Assembly Language Reference Manual
+https://docs.oracle.com/cd/E18752_01/html/817-5477/eojdc.html
+x86 instruction listings, https://en.wikipedia.org/wiki/X86_instruction_listings
+Use the x86 Assembly Programming Tutorial, 
+https://www.tutorialspoint.com/assembly_programming/index.htm
